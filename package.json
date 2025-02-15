@@ -1,7 +1,7 @@
 {
   "name": "repozen",
   "displayName": "Repozen",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1-alpha.2",
   "description": "Repozen is a tool that helps you to create Node.js based web projects with ease.",
   "homepage": "https://github.com/onurravli/repozen",
   "bugs": {
