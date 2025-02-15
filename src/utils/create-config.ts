@@ -1,6 +1,5 @@
-import { ProjectConfig } from "@/types/project-config";
-
 import packageJson from "../../package.json";
+import { ProjectConfig } from "../types/project-config";
 
 import chalk from "chalk";
 import { writeFile } from "fs/promises";

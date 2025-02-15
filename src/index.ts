@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-import "module-alias/register";
-
 import { banner } from "./utils/banner";
 import { checkForRepozen } from "./utils/check-for-repozen";
 import { createConfig } from "./utils/create-config";

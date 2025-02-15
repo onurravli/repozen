@@ -1,4 +1,4 @@
-import { ProjectType } from "@/types/project-type";
+import { ProjectType } from "../types/project-type";
 
 export interface ProjectConfig {
   projectType: ProjectType;

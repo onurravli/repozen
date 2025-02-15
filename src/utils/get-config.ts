@@ -1,5 +1,5 @@
-import { ProjectConfig } from "@/types/project-config";
-import { ProjectType } from "@/types/project-type";
+import { ProjectConfig } from "../types/project-config";
+import { ProjectType } from "../types/project-type";
 
 import { confirm, input, select } from "@inquirer/prompts";
 
