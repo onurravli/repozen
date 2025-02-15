@@ -1,0 +1,55 @@
+{
+  "name": "repozen",
+  "displayName": "Repozen",
+  "version": "0.0.1-alpha.1",
+  "description": "Repozen is a tool that helps you to create Node.js based web projects with ease.",
+  "homepage": "https://github.com/onurravli/repozen",
+  "bugs": {
+    "url": "https://github.com/onurravli/repozen/issues",
+    "email": "onur@onurravli.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onurravli/repozen.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Onur Ravli",
+    "email": "onur@onurravli.com",
+    "url": "https://onurravli.com"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "repozen": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "tsc -p . --watch",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^22.13.4",
+    "prettier": "^3.5.1",
+    "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.1",
+    "chalk": "4.1.2",
+    "commander": "^13.1.0",
+    "module-alias": "^2.2.3"
+  },
+  "_moduleAliases": {
+    "@/types": "./dist/types",
+    "@/utils": "./dist/utils"
+  }
+}
